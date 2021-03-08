@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Logo from "../images/logo.svg";
 import { FaAlignRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -15,9 +14,6 @@ export default class Navbar extends Component {
       <nav className="navbar">
         <div className="nav-center">
           <div className="nav-header">
-            <Link to="/">
-              <img src={Logo} alt="Portfolio" />
-            </Link>
             <button
               type="button"
               className="nav-button"
@@ -39,16 +35,29 @@ export default class Navbar extends Component {
               <a
                 href="https://www.linkedin.com/in/pratik-mittal-6588b361/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
             </li>
-            {/* <li>
-                        <a href='https://stackoverflow.com/users/7682818/pratik-mittal' target="_blank">StackOverflow</a>
-                    </li>
-                    <li>
-                        <a href='https://github.com/pratik1994' target="_blank">Github</a>
-                    </li> */}
+            <li>
+              <a
+                href="https://stackoverflow.com/users/7682818/pratik-mittal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                StackOverflow
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/pratik1994"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </li>
           </ul>
         </div>
       </nav>

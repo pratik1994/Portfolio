@@ -1,6 +1,6 @@
 import React from "react";
-import Avatar from '../images/badge.png';
-import {FaAlignRight} from 'react-icons/fa';
+import Avatar from "../images/badge.png";
+// import {FaAlignRight} from 'react-icons/fa';
 
 const Banner = ({ children, title, subtitle }) => {
   return (
