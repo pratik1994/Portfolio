@@ -16,7 +16,7 @@ export default class Services extends Component {
         icon: <GiSandsOfTime />,
         title: "Experience",
         info:
-          "Total work ex. 4 years and currenty working with Enquero as Senior Software Developer since 2019, worked with Tech Mahindra as Software Engineer (2017-2019)",
+          "Total work ex. 7 years and currenty working with JP Morgan & Chase as SDE II since 2023, worked with Societe Generale as Specialist Software Engineer (2021-2022)",
       },
       {
         icon: <GiTechnoHeart />,
