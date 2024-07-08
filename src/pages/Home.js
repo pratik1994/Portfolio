@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Hero hero="defaultHero">
-        <Banner title="Pratik Mittal" subtitle="Software engineer @ Enquero">
+        <Banner title="Pratik Mittal" subtitle="Software engineer @ JP Morgan Chase & co.">
           <Link to="/projects" className="btn-primary">
             My Projects
           </Link>
